@@ -1,0 +1,24 @@
+# Nada de ROMs, partidas ni estados: solo se comparten parches
+*.gba
+*.sav
+*.ss[0-9]
+*.toml
+original/
+respaldos/
+
+# Herramientas de terceros y descargas (se instalan aparte, ver GUIA.md)
+herramientas/
+descargas/
+
+# Recursos derivados de la ROM o de obras con copyright (imágenes, capturas, música)
+assets/acisclo/
+assets/arquillo/
+capturas/
+pruebas/
+musica/
+
+# Python
+__pycache__/
+*.pyc
+# transcripción de una melodía con copyright (la canción ya va dentro del parche)
+scripts/partitura_pokemon.py
